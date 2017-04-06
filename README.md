@@ -12,13 +12,12 @@
 
 ## Install
 
-```
-```
+Download all files in 4 different servers
 
 ## Usage
 
-```
-```
+Modify each StartClientServer*.bash script for port and hostname.
+Run each script within 6 seconds
 
 ## Contribute
 
