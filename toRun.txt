@@ -1,0 +1,12 @@
+Execute command:
+
+1) Open 4 terminal windows - [afsaccess1...afsaccess4].njit.edu
+2) For each window, run StartClientServer*.bash for each corrisponding window. --- Ex. afsaccess1.njit.edu, run StartClientServer1.bash
+3) The servers will wait 6 seconds before sending pull requests. So you will have 6 seconds to start all 4 scripts.
+4) After 6 seconds, the 4 client-servers will send pull requests and push requests.
+5) Routing tables will converge at the end.
+
+Program arguments are hard-coded in the bash scripts.
+To change port number, edit all 4 StartClientServer*.bash files
+
+
